@@ -1,0 +1,63 @@
+/* Game.module.css */
+
+.container {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.heading1, .heading2 {
+  margin: 20px 0;
+}
+
+.new {
+  background-image: url(../images/victory.jpeg);
+}
+
+/* Conteneur des cartes */
+.cardContainer, .deckContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Style des cartes */
+.card {
+  width: 140px;
+  background: #222;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h4 {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #FFD700; /* Doré pour le nom */
+}
+.card p {
+  font-size: 12px;
+  margin: 0;
+  color: #ddd;
+}
+
+/* Bouton de validation */
+.button {
+  margin-top: 20px;
+}
